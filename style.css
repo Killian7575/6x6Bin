@@ -1,0 +1,11 @@
+.gameboard, td, th {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: #0B1AB8;
+    vertical-align: middle;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ED2428;
+}
