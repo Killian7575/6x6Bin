@@ -9,3 +9,9 @@
     border-spacing: 0;
     border: 1px solid #ED2428;
 }
+.testBox {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    max-width: 150px;
+}
