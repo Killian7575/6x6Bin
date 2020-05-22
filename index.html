@@ -1,4 +1,4 @@
-﻿<!-- Binary Puzzle V06 -->
+﻿<!-- Binary Puzzle V07 -->
 <!-- Developer - Killian -->
 <!DOCTYPE html>
 <html>
@@ -13,7 +13,30 @@
         <h1>6x6 Binary Puzzle Game</h1>
         <h2>No frills with the layout</h2>
         <div>More text if needed</div> <br /> <br />
+        <select id="cboPuzNo">
+            <option value="GT">Test 1-36</option>
+            <option value='G01'>Example in Q</option>
+            <option value="G02">Game 2</option>
+            <option value="G03">Game 3</option>
+            <option value="G04">Game 4</option>
+            <option value="G05">Game 5</option>
+            <option value="G06">Game 6</option>
+            <option value="G07">Game 7</option>
+            <option value="G08">Game 8</option>
+            <option value="G09">Game 9</option>
+            <option value="G10">Game 10</option>
+            <option value="G11">Game 11</option>
+            <option value="G12">Game 12</option>
+            <option value="G13">Game 13</option>
+        </select>
     </form>
+    <input type="button" id="SolveR" value="Solve repeat">
+    <input type="button" id="SolveO" value="Solve once">
+    <input type="button" id="Pairs" value="Pairs">
+    <input type="button" id="RPairs" value="RowPairs">
+    <input type="button" id="CPairs" value="ColPairs">
+    <input type="button" id="Trios" value="Trios">
+    <input type="button" id="Comp" value="Complete">
     <table class="gameboard">
         <tr>
             <td>
